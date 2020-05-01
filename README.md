@@ -35,8 +35,8 @@ module.exports = {
         // https://gridsome.org/plugins/@gridsome/source-airtable
         apiKey: process.env.AIRTABLE_KEY, //required
         baseId: process.env.AIRTABLE_BASE, //required
-        tableName: 'Joking Nr1', //required
-        typeName: 'Joking Nr1', //required - needs to match template name
+        tableName: 'Events', //required
+        typeName: 'Event', //required - needs to match template name
         route: '/events/:name' //optional
       }
     }
